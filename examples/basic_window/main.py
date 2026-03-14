@@ -1,3 +1,6 @@
-from ...ryba_lib import *
+import ryba_lib as ryba
 
-print(foo())
+root = ryba.Window()
+
+
+root.mainloop()
